@@ -4,11 +4,22 @@
   <title>Mailing List Signup</title>
 </head>
 <body>
-  <h1>Join Our Mailing list</h1>
+  <h1>Join Our Mailing List</h1>
   <p>Thanks for stopping by!  To receive notifications when we add new or interesting articles to our site, fill out the form below and we'll keep you up to date!</p>
 
-  <form action="success.html">
-    <legend>Mailing List Signup</legend>
+  <form action="success.html" method="post">
+    <fieldset>
+      <legend>Mailing List Signup</legend>
+
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="John Smith" autofocus required>
+      <br>
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="mail@email.com" required>
+      <br>
+      <input type="submit" name="join-list" value="Join List">
+
+    </fieldset>
   </form>
 
   <p>Click here to return to our <a href="index.html">Home</a> page.</p>
