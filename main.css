@@ -60,12 +60,6 @@ p a:visited {
   color: teal;
 }
 
-.below-slant {
-  padding-top: 20px;
-}
-
-
-
 /* Triangle SVG Class*/
 .triangle {
   fill: lightblue;
@@ -74,6 +68,31 @@ p a:visited {
   z-index: -2;
 }
 
+.below-slant {
+  padding-top: 20px;
+}
+
+/* Navigation Styles */
+
+nav {
+  position: absolute;
+  top: 20px;
+  right: 10%;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: white;
+  padding-left: 20px;
+  font-size: 1.1em;
+}
+
+nav ul li a:hover {
+  color: lightblue;
+}
 
  /* Header Styles */
 
