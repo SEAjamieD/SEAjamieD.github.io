@@ -60,18 +60,43 @@ p a:visited {
   color: teal;
 }
 
-.below-slant {
-  padding-top: 20px;
-}
-
-
-
 /* Triangle SVG Class*/
 .triangle {
   fill: lightblue;
   width: 100%;
   height: 10vw;
   z-index: -2;
+}
+
+.below-slant {
+  padding-top: 20px;
+}
+
+/* Navigation Styles */
+
+.nav {
+  position: fixed;
+  top: 0;
+  background-color: lightblue;
+  box-shadow: 0 15px 25px -15px grey;
+  width: 100%;
+  height: 50px;
+  z-index: 5;
+}
+
+.nav ul li {
+  display: inline;
+}
+
+.nav ul li a {
+  display: inline-block;
+  font-size: 1.1em;
+  color: white;
+  padding: 15px 15px 0;
+}
+
+.nav ul li a:hover {
+  color: blue;
 }
 
 
@@ -84,6 +109,7 @@ p a:visited {
   background-repeat:  no-repeat;
   background-position: center bottom;
   background-size: cover;
+  margin-top: 50px;
   z-index: -3
 }
 
