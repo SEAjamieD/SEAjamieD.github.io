@@ -31,9 +31,40 @@ div p {
   padding-right: 5%;
 }
 
+ol {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+li {
+
+}
+
+/* Link Style */
+
+a {
+  text-decoration: none;
+}
+
+p a {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: blue;
+}
+
+p a:hover {
+  color: darkblue;
+}
+
+p a:visited {
+  color: teal;
+}
+
 .below-slant {
   padding-top: 20px;
 }
+
+
 
 /* Triangle SVG Class*/
 .triangle {
