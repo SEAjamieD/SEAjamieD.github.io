@@ -91,6 +91,51 @@ div p {
   bottom: 0;
 }
 
+#table-map-div {
+  position: relative;
+}
+
+.table {
+  position: absolute;
+  background-color: #c1e1ec;
+  border: 5px solid blue;
+  width: 20%;
+  margin-top: 20px;
+  height: 200px;
+}
+
+.table tr, .table td {
+  border: 1px solid blue;
+}
+
+.table th {
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+.table td {
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+#table1 {
+  left: 5%;
+}
+
+#table2 {
+  left: 30%;
+}
+
+#map {
+  position: absolute;
+  right: 5%;
+  width: 40%;
+  height: 200px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
 
 
 /* Where to Camp Styles */
