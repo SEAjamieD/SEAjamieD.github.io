@@ -75,17 +75,9 @@ p a:visited {
 /* Navigation Styles */
 
 .nav {
-  display: ;
   position: fixed;
-  top: 0;
   background-color: lightblue;
   width: 100%;
-  box-shadow: 0px 15px 15px -10px grey;
-  z-index: 5;
-  text-align: center;
-}
-
-.nav ul {
   height: 50px;
 }
 
@@ -95,14 +87,14 @@ p a:visited {
 
 .nav ul li a {
   display: inline-block;
-  color: white;
   font-size: 1.1em;
-  padding: 15px 20px;
+  color: white;
 }
 
 .nav ul li a:hover {
-  color: lightblue;
+  color: blue;
 }
+
 
  /* Header Styles */
 
