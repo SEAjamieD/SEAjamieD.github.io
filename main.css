@@ -18,11 +18,21 @@ h2 {
   font-size: 2em;
   padding-left: 5%;
   padding-right: 5%;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 25px;
 }
 
 div p {
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.below-slant {
+  padding-top: 20px;
 }
 
 /* Triangle SVG Class*/
@@ -67,10 +77,6 @@ div p {
 
 /* Getting there Styles */
 
-#getting-there-div p {
-  margin-top: 400px;
-}
-
 #getting-there-triangle-div {
   position: relative;
   height: 400px;
@@ -93,6 +99,8 @@ div p {
 
 #table-map-div {
   position: relative;
+  display: block;
+  padding-bottom: 250px;
 }
 
 .table {
@@ -117,7 +125,6 @@ div p {
   text-align: center;
   padding-top: 10px;
 }
-
 
 #table1 {
   left: 5%;
