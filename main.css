@@ -71,15 +71,14 @@ header {
   margin-top: 400px;
 }
 
-#getting-there-div {
+#getting-there-triangle-div {
   position: relative;
   height: 400px;
-  background-image: url(images/ferry.jpg);
+  background-image: url(images/ferry.jpg); /* Give credit to photographer here -->https://www.pinterest.com/myedmondsnews/remembering-bryan-briscoe-1962-2012/ */
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: bottom center;
   background-size: cover;
   z-index: -3;
-  margin-top: 125px;
 }
 
 #getting-there-triangle-top {
@@ -96,7 +95,7 @@ header {
 
 /* Where to Camp Styles */
 
-#where-to-camp-div {
+#where-to-camp-triangle-div {
   position: relative;
   height: 400px;
   background-image: url(images/where-to-camp-image.jpg);
@@ -104,7 +103,6 @@ header {
   background-position: center bottom;
   background-size: cover;
   z-index: -3;
-  margin-top: 300px;
 }
 
 #where-to-camp-triangle-top {
@@ -113,6 +111,28 @@ header {
 }
 
 #where-to-camp-triangle-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+/* Activities Styles */
+
+#activities-div {
+  position: relative;
+  height: 400px;
+  background-image: url(images/stars-image.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: -3;
+}
+
+#activities-triangle-top {
+  position: absolute;
+  top: 0;
+}
+
+#activities-triangle-bottom {
   position: absolute;
   bottom: 0;
 }
