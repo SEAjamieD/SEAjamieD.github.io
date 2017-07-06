@@ -1,3 +1,138 @@
+
+/* Global Styles */
+
 body {
   background-color: lightblue;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: #333;
+}
+
+h1 {
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  font-size: 4.3em;
+}
+
+h2 {
+  font-size: 2em;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+div p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* Triangle SVG Class*/
+.triangle {
+  fill: lightblue;
+  width: 100%;
+  height: 10vw;
+  z-index: -2;
+}
+
+
+ /* Header Styles */
+
+header {
+  position: relative;
+  height: 500px;
+  background-image: url(images/header-image.jpg);
+  background-repeat:  no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  z-index: -3
+}
+
+#header-span {
+  position: absolute;
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  font-size: 1.6em;
+  padding-top: 10%;
+  padding-left: 7%;
+}
+
+#header-title {
+  padding-top: 15%;
+  padding-left: 15%;
+}
+
+#header-triangle {
+  position: absolute;
+  bottom: 0;
+}
+
+/* Getting there Styles */
+
+#getting-there-div p {
+  margin-top: 400px;
+}
+
+#getting-there-triangle-div {
+  position: relative;
+  height: 400px;
+  background-image: url(images/ferry.jpg); /* Give credit to photographer here -->https://www.pinterest.com/myedmondsnews/remembering-bryan-briscoe-1962-2012/ */
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  z-index: -3;
+}
+
+#getting-there-triangle-top {
+  position: absolute;
+  top: 0;
+}
+
+#getting-there-triangle-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+
+
+/* Where to Camp Styles */
+
+#where-to-camp-triangle-div {
+  position: relative;
+  height: 400px;
+  background-image: url(images/where-to-camp-image.jpg);
+  background-repeat:  no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  z-index: -3;
+}
+
+#where-to-camp-triangle-top {
+  position: absolute;
+  top: 0;
+}
+
+#where-to-camp-triangle-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+/* Activities Styles */
+
+#activities-div {
+  position: relative;
+  height: 400px;
+  background-image: url(images/stars-image.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: -3;
+}
+
+#activities-triangle-top {
+  position: absolute;
+  top: 0;
+}
+
+#activities-triangle-bottom {
+  position: absolute;
+  bottom: 0;
 }
