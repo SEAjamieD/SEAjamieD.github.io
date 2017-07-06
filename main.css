@@ -11,7 +11,7 @@ body {
 h1 {
   font-family: 'Rock Salt', cursive;
   color: white;
-  font-size: 4em;
+  font-size: 4.3em;
 }
 
 h2 {
@@ -46,13 +46,13 @@ header {
   z-index: -3
 }
 
-#header-lead {
+#header-span {
   position: absolute;
   font-family: 'Rock Salt', cursive;
   color: white;
   font-size: 1.6em;
   padding-top: 10%;
-  padding-left: 10%;
+  padding-left: 7%;
 }
 
 #header-title {
@@ -65,6 +65,34 @@ header {
   bottom: 0;
 }
 
+/* Getting there Styles */
+
+#getting-there-div p {
+  margin-top: 400px;
+}
+
+#getting-there-div {
+  position: relative;
+  height: 400px;
+  background-image: url(images/ferry.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  z-index: -3;
+  margin-top: 125px;
+}
+
+#getting-there-triangle-top {
+  position: absolute;
+  top: 0;
+}
+
+#getting-there-triangle-bottom {
+  position: absolute;
+  bottom: 0;
+}
+
+
 
 /* Where to Camp Styles */
 
@@ -75,7 +103,8 @@ header {
   background-repeat:  no-repeat;
   background-position: center bottom;
   background-size: cover;
-  z-index: -3
+  z-index: -3;
+  margin-top: 300px;
 }
 
 #where-to-camp-triangle-top {
