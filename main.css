@@ -249,6 +249,11 @@ p a:visited {
   bottom: 0;
 }
 
+.list li{
+ /* change list items here */
+}
+
+
 /* Friend and Mail List styles */
 
 #friends-mail-div {
