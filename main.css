@@ -6,12 +6,11 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   color: #333;
-  position: relative;
+
 }
 
 #main-content {
-  min-height: 100%;
-  padding-bottom: 600px;
+  border: 2px solid blue;
 }
 
 h1 {
@@ -120,6 +119,7 @@ p a:visited {
   background-size: cover;
   margin-top: 50px;
   z-index: -3;
+  border: 2px dashed green;
 }
 
 #header-span {
@@ -308,11 +308,6 @@ p a:visited {
 /* footer styles */
 
 footer {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
   height: 200px;
   border: 2px solid red;
 }
