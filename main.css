@@ -26,7 +26,7 @@ p {
   line-height: 25px;
 }
 
-div p {
+div p {               /* This is jacking up the paragraphs in Friends and mail list signup - overwrote it with a 0 padding */
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -273,7 +273,7 @@ p a:visited {
 }
 
 #friends-div p {
-  padding-right: 2.5%;
+  padding-right: 0;
 }
 
 #mail-list {
@@ -282,7 +282,7 @@ p a:visited {
 }
 
 #mail-list p {
-  padding-left: 2.5%;
+  padding-left: 0;
 }
 
 .column-split {
@@ -297,7 +297,6 @@ p a:visited {
 /* footer styles */
 
 .footer {
-
   border: 5px solid red;
   height: 200px;
   margin-top: 40px;
