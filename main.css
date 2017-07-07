@@ -249,16 +249,57 @@ p a:visited {
   bottom: 0;
 }
 
-.footer {
+/* Friend and Mail List styles */
+
+#friends-mail-div {
   position: relative;
-  border: 5px solid red;
-  height: 200px;
+  vertical-align: top;
+  margin-top: 40px;
 }
 
-#mail-list{
-  position: absolute;
-  width: 50%;
-  right: 0;
+#friends-mail-div h2 {
   text-align: center;
-  margin-top: 30px;
 }
+
+
+#friends-mail-div div {
+  display: block;
+  vertical-align: top;
+}
+
+#friends-div {
+  position: absolute;
+  left: 2.5%;
+}
+
+#friends-div p {
+  padding-right: 2.5%;
+}
+
+#mail-list {
+  position: absolute;
+  right: 2.5%;
+}
+
+#mail-list p {
+  padding-left: 2.5%;
+}
+
+.column-split {
+  width: 45%;
+}
+
+.column-split p {
+  text-align: justify;
+}
+
+
+/* footer styles */
+
+.footer {
+
+  border: 5px solid red;
+  height: 200px;
+  margin-top: 40px;
+}
+
