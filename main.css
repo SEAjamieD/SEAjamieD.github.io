@@ -296,9 +296,8 @@ p a:visited {
 
 /* footer styles */
 
-.footer {
-  border: 5px solid red;
+footer {
   height: 200px;
-  margin-top: 40px;
+  border: solid red 5px;
 }
 
