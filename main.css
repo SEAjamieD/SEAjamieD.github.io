@@ -26,7 +26,7 @@ p {
   line-height: 25px;
 }
 
-div p {
+div p {               /* This is jacking up the paragraphs in Friends and mail list signup - overwrote it with a 0 padding */
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -36,9 +36,6 @@ ol {
   padding-right: 5%;
 }
 
-li {
-
-}
 
 /* Link Style */
 
@@ -89,6 +86,7 @@ p a:visited {
   display: inline-block;
   margin-top: 15px;
 }
+
 .nav ul li {
   display: inline;
   padding: 5px 0;
@@ -250,3 +248,61 @@ p a:visited {
   position: absolute;
   bottom: 0;
 }
+
+.list li{
+ /* change list items here */
+}
+
+
+/* Friend and Mail List styles */
+
+#friends-mail-div {
+  position: relative;
+  vertical-align: top;
+  margin-top: 40px;
+}
+
+#friends-mail-div h2 {
+  text-align: center;
+}
+
+
+#friends-mail-div div {
+  display: block;
+  vertical-align: top;
+}
+
+#friends-div {
+  position: absolute;
+  left: 2.5%;
+}
+
+#friends-div p {
+  padding-right: 0;
+}
+
+#mail-list {
+  position: absolute;
+  right: 2.5%;
+}
+
+#mail-list p {
+  padding-left: 0;
+}
+
+.column-split {
+  width: 45%;
+}
+
+.column-split p {
+  text-align: justify;
+}
+
+
+/* footer styles */
+
+footer {
+  height: 200px;
+  border: solid red 5px;
+}
+
