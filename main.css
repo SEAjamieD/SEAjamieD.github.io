@@ -1,16 +1,21 @@
 
 /* Global Styles */
-
+html,
 body {
   background-color: lightblue;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   color: #333;
+  height: 100%;
+}
 
+#wrapper {
+  min-height: 100%;
+  position: relative;
 }
 
 #main-content {
-  border: 2px solid blue;
+  padding-bottom: 200px;
 }
 
 h1 {
@@ -67,7 +72,7 @@ p a:visited {
   fill: lightblue;
   width: 100%;
   height: 10vw;
-  z-index: -2;
+  z-index: 2;
 }
 
 .below-slant {
@@ -118,8 +123,7 @@ p a:visited {
   background-position: center bottom;
   background-size: cover;
   margin-top: 50px;
-  z-index: -3;
-  border: 2px dashed green;
+  z-index: 3;
 }
 
 #header-span {
@@ -150,7 +154,7 @@ p a:visited {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-  z-index: -3;
+  z-index: 3;
 }
 
 #getting-there-triangle-top {
@@ -176,6 +180,7 @@ p a:visited {
   width: 20%;
   margin-top: 20px;
   height: 200px;
+  z-index: 4;
 }
 
 .table tr, .table td {
@@ -220,7 +225,7 @@ p a:visited {
   background-repeat:  no-repeat;
   background-position: center bottom;
   background-size: cover;
-  z-index: -3;
+  z-index: 3;
 }
 
 #where-to-camp-triangle-top {
@@ -242,7 +247,7 @@ p a:visited {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  z-index: -3;
+  z-index: 3;
 }
 
 #activities-triangle-top {
@@ -310,5 +315,6 @@ p a:visited {
 footer {
   height: 200px;
   border: 2px solid red;
+  margin-top: 250px;
 }
 
