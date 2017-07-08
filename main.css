@@ -274,6 +274,11 @@ p a:visited {
   border: 1px green dashed;
 }
 
+#friends-div h2,
+#mail-list-div h2 {
+  text-align: center;
+}
+
 #mail-list-div {        /* THIS IS NOT ACCURATE */
   margin-left: 7.5%;
 }
