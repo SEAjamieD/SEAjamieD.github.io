@@ -259,13 +259,11 @@ p a:visited {
 
 /* Friend and Mail List styles */
 
-
-/*
 #friends-mail-wrapper {
-  width: 90%;
   border: 2px solid red;
-  text-align: center;
-} */
+  text-align: justify;
+  margin-top: 50px;
+}
 
 #friends-div,
 #mail-list-div {
@@ -276,13 +274,11 @@ p a:visited {
   border: 1px green dashed;
 }
 
-#friends-div {
-  margin-right: 2.5%;
+#mail-list-div {        /* THIS IS NOT ACCURATE */
+  margin-left: 7.5%;
 }
 
-#mail-list-div {
-  margin-left: 2.5%;
-}
+
 /* footer styles */
 
 footer {
