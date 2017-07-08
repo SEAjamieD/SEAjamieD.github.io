@@ -1,11 +1,26 @@
 
 /* Global Styles */
-
+html,
 body {
   background-color: lightblue;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   color: #333;
+  height: 100%;
+}
+
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+.main-padding {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#main-content {
+ /* Padding bottom would go here */
 }
 
 h1 {
@@ -16,8 +31,6 @@ h1 {
 
 h2 {
   font-size: 2em;
-  padding-left: 5%;
-  padding-right: 5%;
   padding-bottom: 20px;
 }
 
@@ -25,17 +38,6 @@ p {
   font-size: 1.2em;
   line-height: 25px;
 }
-
-div p {               /* This is jacking up the paragraphs in Friends and mail list signup - overwrote it with a 0 padding */
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-ol {
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
 
 /* Link Style */
 
@@ -62,7 +64,7 @@ p a:visited {
   fill: lightblue;
   width: 100%;
   height: 10vw;
-  z-index: -2;
+  z-index: 2;
 }
 
 .below-slant {
@@ -113,7 +115,7 @@ p a:visited {
   background-position: center bottom;
   background-size: cover;
   margin-top: 50px;
-  z-index: -3
+  z-index: 3;
 }
 
 #header-span {
@@ -144,7 +146,7 @@ p a:visited {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-  z-index: -3;
+  z-index: 3;
 }
 
 #getting-there-triangle-top {
@@ -170,6 +172,7 @@ p a:visited {
   width: 20%;
   margin-top: 20px;
   height: 200px;
+  z-index: 4;
 }
 
 .table tr, .table td {
@@ -214,7 +217,7 @@ p a:visited {
   background-repeat:  no-repeat;
   background-position: center bottom;
   background-size: cover;
-  z-index: -3;
+  z-index: 3;
 }
 
 #where-to-camp-triangle-top {
@@ -236,7 +239,7 @@ p a:visited {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  z-index: -3;
+  z-index: 3;
 }
 
 #activities-triangle-top {
@@ -256,46 +259,28 @@ p a:visited {
 
 /* Friend and Mail List styles */
 
-#friends-mail-div {
-  position: relative;
-  vertical-align: top;
-  margin-top: 40px;
+#friends-mail-wrapper {
+  border: 2px solid red;
+  text-align: justify;
+  margin-top: 50px;
 }
 
-#friends-mail-div h2 {
+#friends-div,
+#mail-list-div {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: justify;
+  border: 1px green dashed;
+}
+
+#friends-div h2,
+#mail-list-div h2 {
   text-align: center;
 }
 
-
-#friends-mail-div div {
-  display: block;
-  vertical-align: top;
-}
-
-#friends-div {
-  position: absolute;
-  left: 2.5%;
-}
-
-#friends-div p {
-  padding-right: 0;
-}
-
-#mail-list {
-  position: absolute;
-  right: 2.5%;
-}
-
-#mail-list p {
-  padding-left: 0;
-}
-
-.column-split {
-  width: 45%;
-}
-
-.column-split p {
-  text-align: justify;
+#mail-list-div {        /* THIS IS NOT ACCURATE */
+  margin-left: 7.5%;
 }
 
 
@@ -303,6 +288,6 @@ p a:visited {
 
 footer {
   height: 200px;
-  border: solid red 5px;
+  border: 2px solid red;
 }
 

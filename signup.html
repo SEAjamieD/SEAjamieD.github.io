@@ -5,28 +5,43 @@
   <link rel="stylesheet" type="text/css" href="reset.css">
   <link rel="stylesheet" type="text/css" href="main.css">
   <link rel="stylesheet" type="text/css" href="signup.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,700|Rock+Salt" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
   <body>
-    <div>
-    <h1 id="heading">Join Our Mailing List</h1>
-    <p>Thanks for stopping by!  To receive notifications when we add new or interesting articles to our site, fill out the form below and we'll keep you up to date!</p>
+    <div id="signup-container">
+    <header>
+      <p>HEADER GOES HERE</p>
+    </header>
+
+    <div id="signup-main-content">
+        <div>
+          <h1 id="heading">Join Our Mailing List</h1>
+          <p>Thanks for stopping by!  To receive notifications when we add new or interesting articles to our site, fill out the form below and we'll keep you up to date!</p>
+        </div>
+      <form action="success.html" method="post">
+        <fieldset>
+          <legend>Mailing List Signup</legend>
+          <div id="lineformat">
+          <label for="name">Name</label>
+          <input type="text" id="name" class="input" name="name" placeholder="John Smith" autofocus required>
+          </div>
+          <label for="email">Email</label>
+          <input type="email" id="email" class="input" name="email" placeholder="mail@email.com" required>
+
+          <input type="submit" name="join-list" value="Join List" id="submit-button">
+
+        </fieldset>
+      </form>
+
+      <p>Click here to return to our <a href="index.html">Home</a> page.</p>
+
+    </div>  <!-- End signup-main-content -->
+
+    <footer>
+      <p>FOOTER GOES HERE</p>
+    </footer>
+
   </div>
-  <form action="success.html" method="post">
-    <fieldset>
-      <legend>Mailing List Signup</legend>
-
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="John Smith" autofocus required>
-      <br>
-      <label for="email">Email Address</label>
-      <input type="email" id="email" name="email" placeholder="mail@email.com" required>
-      <br>
-      <input type="submit" name="join-list" value="Join List">
-
-    </fieldset>
-  </form>
-
-  <p>Click here to return to our <a href="index.html">Home</a> page.</p>
-
 </body>
 </html>

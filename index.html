@@ -8,16 +8,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
+
 <body>
-    <header id="top">
+   <div id="wrapper">         <!-- page wrapper begins here -->
+    <header id="top">   <!-- Begin Header -->
       <nav class="nav">
         <ul>
           <li><a href="#top">Home</a></li>
           <li><a href="#getting-there">Getting There</a></li>
           <li><a href="#where-to-camp">Where to Camp</a></li>
           <li><a href="#activities">Activities</a></li>
-          <li><a href="#mail-list-signup">Mail List Signup!</a></li>
-          <li><a href="#friends">Friends</a></li>
+          <li><a href="#mail-list">Mail List Signup!</a></li>
+          <li><a href="#friends-div">Friends</a></li>
         </ul>
       </nav>
 
@@ -25,170 +27,181 @@
         <span id="header-span">A weekend of camping in</span>
         <h1 id="header-title">La Push</h1>
         <svg class="triangle" id="header-triangle" viewBox="0 0 100 100" preserveAspectRatio="none">
-          <polygon points="0,0 100,100 0,100">
+          <polygon points="0,0 100,100 0,100"/>
         </svg>
       </div>
 
     </header> <!-- end header -->
 
- <section id="introduction">
-    <div>
-      <p>So you're thinking about heading out to La Push for the weekend, eh?  EXCELLENT CHOICE!  Washington is a beautiful state with some of the best camping available, and La Push is one of the best spots around.  Follow this guide to help plan your trip, find a great campground, see the best views, and get the most out of your weekend away!</p>
-    </div>
-  </section> <!-- end introduction section -->
 
-  <section id="getting-there">
-    <div id="getting-there-triangle-div">
-      <svg class="triangle" id="getting-there-triangle-top" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <polygon points="0,0 0,100 100,0">
-      </svg>
+    <div id="main-content">         <!-- Main content begins here -->
+       <section id="introduction">  <!-- Begin intro section -->
+          <div class="main-padding">
+            <p>So you're thinking about heading out to La Push for the weekend, eh?  EXCELLENT CHOICE!  Washington is a beautiful state with some of the best camping available, and La Push is one of the best spots around.  Follow this guide to help plan your trip, find a great campground, see the best views, and get the most out of your weekend away!</p>
+          </div>
+        </section> <!-- end introduction section -->
 
-      <svg class="triangle" id="getting-there-triangle-bottom" viewbox="0 0 100 100" preserveAspectRatio="none">
-        <polygon points="0,100 100,100 100,0">
-      </svg>
+        <section id="getting-there">  <!-- Begin Getting There Section -->
+          <div id="getting-there-triangle-div">
+            <svg class="triangle" id="getting-there-triangle-top" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <polygon points="0,0 0,100 100,0"/>
+            </svg>
 
-    </div>
+            <svg class="triangle" id="getting-there-triangle-bottom" viewbox="0 0 100 100" preserveAspectRatio="none">
+              <polygon points="0,100 100,100 100,0"/>
+            </svg>
 
-    <div>
-      <h2 class="below-slant">Getting There</h2>
-      <p>While there are multiple ways to arrive safely in La Push, I highly recommend utilizing the Edmonds/Kingston Ferry.  Not only is it fun to ride the ferry, but you'll shave about an hour off your driving time.  Actual arrival time should be about the same with no traffic, but for a good 30 minutes you'll get to sit and enjoy a beer with friends or take in views from the ferry deck.  The ferry costs a few extra bucks to take, so be ready to fork over your hard earned cash.  You can find the perfect ferry time for yourself on the <a href="http://www.wsdot.com/ferries/schedule/ScheduleDetail.aspx?departingterm=8&arrivingterm=12&roundtrip=true">WSDOT</a> website.  Find current ferry prices in the table below.</p>
-    </div>
-    <div id="table-map-div">
-      <table class="table" id="table1">
-        <tr>
-          <th colspan="2">Edmonds To Kingston</th>
-        </tr>
+          </div>
 
-        <tr>
-          <td>Vehicle Under 22' & Driver</td>
-          <td>$18.20</td>
-        </tr>
+          <div class="main-padding">
+            <h2 class="below-slant">Getting There</h2>
+            <p>While there are multiple ways to arrive safely in La Push, I highly recommend utilizing the Edmonds/Kingston Ferry.  Not only is it fun to ride the ferry, but you'll shave about an hour off your driving time.  Actual arrival time should be about the same with no traffic, but for a good 30 minutes you'll get to sit and enjoy a beer with friends or take in views from the ferry deck.  The ferry costs a few extra bucks to take, so be ready to fork over your hard earned cash.  You can find the perfect ferry time for yourself on the <a href="http://www.wsdot.com/ferries/schedule/ScheduleDetail.aspx?departingterm=8&arrivingterm=12&roundtrip=true">WSDOT</a> website.  Find current ferry prices in the table below.</p>
 
-        <tr>
-          <td>Adult Passenger</td>
-          <td>$8.20</td>
-        </tr>
+          </div>
 
-        <tr>
-          <td>Senior (65+)</td>
-          <td>$4.10</td>
-        </tr>
+          <div id="table-map-div">    <!-- Begin Table Div -->
+            <table class="table" id="table1">
+              <tr>
+                <th colspan="2">Edmonds To Kingston</th>
+              </tr>
 
-        <tr>
-          <td>Youth (6-18)</td>
-          <td>$4.10</td>
-        </tr>
-      </table> <!-- End Table 1 -->
+              <tr>
+                <td>Vehicle Under 22' & Driver</td>
+                <td>$18.20</td>
+              </tr>
 
-      <table class="table" id="table2">
-        <tr>
-          <th colspan="2">Kingston To Edmonds</th>
-        </tr>
+              <tr>
+                <td>Adult Passenger</td>
+                <td>$8.20</td>
+              </tr>
 
-        <tr>
-          <td>Vehicle Under 22' & Driver</td>
-          <td>$18.20</td>
-        </tr>
+              <tr>
+                <td>Senior (65+)</td>
+                <td>$4.10</td>
+              </tr>
 
-        <tr>
-          <td>Adult Passenger</td>
-          <td>Free</td>
-        </tr>
+              <tr>
+                <td>Youth (6-18)</td>
+                <td>$4.10</td>
+              </tr>
+            </table> <!-- End Table 1 -->
 
-        <tr>
-          <td>Senior (65+)</td>
-          <td>Free</td>
-        </tr>
+            <table class="table" id="table2">
+              <tr>
+                <th colspan="2">Kingston To Edmonds</th>
+              </tr>
 
-        <tr>
-          <td>Youth (6-18)</td>
-          <td>Free</td>
-        </tr>
+              <tr>
+                <td>Vehicle Under 22' & Driver</td>
+                <td>$18.20</td>
+              </tr>
 
-      </table> <!-- End Table 2 -->
+              <tr>
+                <td>Adult Passenger</td>
+                <td>Free</td>
+              </tr>
 
+              <tr>
+                <td>Senior (65+)</td>
+                <td>Free</td>
+              </tr>
 
-      <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d2742342.293411084!2d-125.72096381681398!3d47.83826347405287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C+Washington!3m2!1d47.6062095!2d-122.3320708!4m5!1s0x54901af968b9ee7d%3A0x179aeeace217b062!2sEdmonds+Kingston+Ferry+Toll+Booth%2C+Edmonds%2C+WA!3m2!1d47.810429299999996!2d-122.3829786!4m5!1s0x548e7ff7ad1fae27%3A0x1d5d518a88460718!2sLa+Push%2C+WA!3m2!1d47.9081335!2d-124.63522549999999!5e0!3m2!1sen!2sus!4v1498849315401">
-      </iframe>
+              <tr>
+                <td>Youth (6-18)</td>
+                <td>Free</td>
+              </tr>
 
-    </div>
-  </section> <!-- end getting-there section -->
-
-  <section id="where-to-camp">
-    <div id="where-to-camp-triangle-div">
-
-      <svg id="where-to-camp-triangle-top" class=triangle viewBox="0 0 100 100" preserveAspectRatio="none">
-        <polygon points="0,0 100,0 100,100">
-      </svg>
-
-      <svg id="where-to-camp-triangle-bottom" class=triangle viewBox="0 0 100 100" preserveAspectRatio="none">
-      <polygon points="0,0 0,100 100,100">
-      </svg>
-
-    </div>
-    <div>
-      <h2>Where To Camp</h2>
-      <p>My favorite spot to camp is named <a href="https://quileuteoceanside.com/">Quileute Oceanside Resort</a>.  They have beautiful campsites for RV's and Tents alike....and if some in your party just don't do the camping lifestyle, there is a motel as well as luxury condos on the same property.</p>
-      <p>Prices vary wildly in the motels and condos, but you can get a campsite any time of year for just $20 bucks a night!  Amenities include plenty of bathrooms, a market that stocks everything you could possibly need, and a beautiful ocean view.</p>
-
-    </div>
-  </section> <!-- end where-to-camp section -->
-
-  <section id="activities">
-    <div id="activities-div">
-
-      <svg id=activities-triangle-top class="triangle" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <polygon points="0,0 0,100 100,0">
-      </svg>
-      <svg id="activities-triangle-bottom" class="triangle" viewBox="0 0 100 100" preserveAspectRatio="none">
-        <polygon points="0,100 100, 100, 100,0"
-      </svg>
-    </div>
-
-    <div>
-      <h2 class="below-slant">Activities</h2>
-
-      <p>Here's a list of my top 5 favorite things to do while camping in La Push:</p>
-
-      <ol class="list">
-        <li>Stargazing at Midnight on the beach</li>
-        <li>Watch the surfers ride waves (or pick up a board yourself!)</li>
-        <li>Sit around a campfire with friends...don't forget the marshmallows!</li>
-        <li>Run with the dogs on the beach</li>
-        <li>Go on a hike</li>
-      </ol>
-
-    </div>
-  </section> <!-- end activities section -->
-
-  <section id="friends-mail-list-section">
-    <div class="" id="friends-mail-div">
-      <div id="friends-div" class="column-split">
-        <h2>Friends</h2>
-        <p>Don't just take our word for it, check out another site on La Push created by <a href="https://www.allstays.com/Campgrounds/wa-la-push-campgrounds.htm">Allstays.com</a>!</p>
-        <p>We love this site because it does a great job of linking other websites and helping you filter down your search results based on price.  It also conveniently lists some places you can stop along the way to pick up supplies or get gas.</p>
-        <p>We think this site could be better if it gave more direct information about the surrounding campgrounds, or had some pictures to help give a better idea of what the area looks like.</p>
-      </div>
-
-      <div id="mail-list" class="column-split">
-      <h2>Mailing List Signup!</h2>
-
-      <p>Interested in getting regular updates on new locations we go to?  Click <a href="signup.html">HERE</a> to be taken to a new page where you can join our mailing list!</p>
-      <img src="#" alt="make join our list image here">
-      </div>
+            </table> <!-- End Table 2 -->
 
 
-    </div>
-  </section>  <!-- end mail/friends section-->
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m34!1m12!1m3!1d2742342.293411084!2d-125.72096381681398!3d47.83826347405287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m19!3e0!4m5!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C+Washington!3m2!1d47.6062095!2d-122.3320708!4m5!1s0x54901af968b9ee7d%3A0x179aeeace217b062!2sEdmonds+Kingston+Ferry+Toll+Booth%2C+Edmonds%2C+WA!3m2!1d47.810429299999996!2d-122.3829786!4m5!1s0x548e7ff7ad1fae27%3A0x1d5d518a88460718!2sLa+Push%2C+WA!3m2!1d47.9081335!2d-124.63522549999999!5e0!3m2!1sen!2sus!4v1498849315401">
+            </iframe>
+
+          </div>      <!-- end table Div -->
+        </section> <!-- end getting-there section -->
+
+        <section id="where-to-camp">    <!-- Begin Where to camp section -->
+          <div id="where-to-camp-triangle-div">
+
+            <svg id="where-to-camp-triangle-top" class=triangle viewBox="0 0 100 100" preserveAspectRatio="none">
+              <polygon points="0,0 100,0 100,100"/>
+            </svg>
+
+            <svg id="where-to-camp-triangle-bottom" class=triangle viewBox="0 0 100 100" preserveAspectRatio="none">
+            <polygon points="0,0 0,100 100,100"/>
+            </svg>
+
+          </div>
+
+          <div class="main-padding">     <!-- Begin where to camp Div -->
+            <h2>Where To Camp</h2>
+            <p>My favorite spot to camp is named <a href="https://quileuteoceanside.com/">Quileute Oceanside Resort</a>.  They have beautiful campsites for RV's and Tents alike....and if some in your party just don't do the camping lifestyle, there is a motel as well as luxury condos on the same property.</p>
+            <br>
+            <p>Prices vary wildly in the motels and condos, but you can get a campsite any time of year for just $20 bucks a night!  Amenities include plenty of bathrooms, a market that stocks everything you could possibly need, and a beautiful ocean view.</p>
+
+          </div>    <!-- end where to camp Div -->
+        </section> <!-- end where-to-camp section -->
+
+        <section id="activities">
+          <div id="activities-div">
+
+            <svg id=activities-triangle-top class="triangle" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <polygon points="0,0 0,100 100,0"/>
+            </svg>
+            <svg id="activities-triangle-bottom" class="triangle" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <polygon points="0,100 100, 100, 100,0"/>
+            </svg>
+          </div>
+
+          <div class="main-padding">  <!-- Begin activities Div -->
+            <h2 class="below-slant">Activities</h2>
+
+            <p>Here's a list of my top 5 favorite things to do while camping in La Push:</p>
+
+            <ol class="list">
+              <li>Stargazing at Midnight on the beach</li>
+              <li>Watch the surfers ride waves (or pick up a board yourself!)</li>
+              <li>Sit around a campfire with friends...don't forget the marshmallows!</li>
+              <li>Run with the dogs on the beach</li>
+              <li>Go on a hike</li>
+            </ol>
+
+          </div>
+        </section> <!-- end activities section -->
+
+        <section id="friends-mail-list-section">
+
+          <div id="friends-mail-wrapper" class="main-padding">  <!-- Begin mail/friends combine Div -->
+
+            <div id="friends-div" class="column-split">
+              <h2>Friends</h2>
+              <p>Don't just take our word for it, check out another site on La Push created by <a href="https://www.allstays.com/Campgrounds/wa-la-push-campgrounds.htm">Allstays.com</a>!</p>
+              <br>
+              <p>We love this site because it does a great job of linking other websites and helping you filter down your search results based on price.  It also conveniently lists some places you can stop along the way to pick up supplies or get gas.</p>
+              <br>
+              <p>We think this site could be better if it gave more direct information about the surrounding campgrounds, or had some pictures to help give a better idea of what the area looks like.</p>
+            </div>
+
+            <div id="mail-list-div" class="column-split">
+            <h2>Mailing List Signup!</h2>
+
+            <p>Interested in getting regular updates on new locations we go to?  Click <a href="signup.html">HERE</a> to be taken to a new page where you can join our mailing list!</p>
+            <img src="#" alt="make join our list image here">
+            </div>
 
 
-  <footer>
-    <div class="footer">
-    <span>how do i move you to the bottom</span>
+          </div>  <!-- end mail/friends combine Div -->
 
-    </div>
-  </footer> <!-- end footer -->
+        </section>  <!-- end mail/friends section-->
 
+      </div> <!-- end main content div -->
+
+    <footer class="footer">
+      <span>how do i move you to the bottom</span>
+
+    </footer> <!-- end footer -->
+
+    </div> <!-- end full page wrapper -->
 
 </body>
 </html>
