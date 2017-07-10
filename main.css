@@ -255,8 +255,19 @@ p a:visited {
   bottom: 0;
 }
 
-.list li{
+.list {
+  margin-top: 15px;
+}
+
+.list li {
+  line-height: 1.8em;
+  margin-left: 5%;
+  }
+
+.list li:before {
  /* change list items here */
+ content: "\00bb";
+ font-size: 1.6em;
 }
 
 
@@ -336,7 +347,7 @@ footer {
 
 
 h1 {
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
 #header-span {
@@ -381,6 +392,12 @@ h1 {
   width: 80%;
 }
 
+.list li {
+  line-height: 1.5em;
+  margin-left: 5%;
+  }
+
+
 /* Friend and Mail List styles */
 
 #friends-mail-wrapper {
@@ -407,6 +424,11 @@ h1 {
   padding-top: 50px;
 }
 
+#friends-div h2,
+#mail-list-div h2 {
+  text-align: left;
+}
+
 #main-content {
   padding-bottom: 50px;
   /* add bottom padding here if needed */
@@ -414,9 +436,11 @@ h1 {
 
 footer {
   height: 100px;
-
 }
 
+.main-padding {
+  text-align: justify;
+}
 
 --------
 
