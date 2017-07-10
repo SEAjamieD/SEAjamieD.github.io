@@ -21,7 +21,6 @@ body {
 }
 
 #main-content {
-  padding-bottom: 300px;
 }
 
 h1 {
@@ -109,7 +108,7 @@ p a:visited {
 
  /* Header Styles */
 
-#header-div {
+.sunset-image {
   position: relative;
   height: 500px;
   background-image: url(images/header-image.jpg);
@@ -285,11 +284,23 @@ p a:visited {
 
 /* footer styles */
 
+
+
 footer {
   position: absolute;
   width: 100%;
   bottom: 0;
-  height: auto;
+  height: 200px;
   left: 0;
-  background-color: brown;
+  background-color: darkgreen;
+
+}
+
+#tent {
+  position: relative;
+  width: 30%;
+  display: inline-block;
+  padding-bottom: 50px;
+  margin-left: 60%;
+  z-index: 1;
 }
