@@ -1,7 +1,12 @@
 
-header {
-  border: 3px solid green;
+#signup-container {
+  min-height: 100%;
+  position: relative;
+}
+
+.sunset-image {
   height: 150px;
+  background-position: center 85%;
 }
 
 h1 {
@@ -70,6 +75,4 @@ label {
 
 /* Footer Correction */
 
-footer {
-  margin-top: 0;
-}
+
