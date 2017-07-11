@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+}
+
+h1 {
+  margin-top: 10%;
+  text-align: center;
+}
+
+p {
+  margin-top: 50px;
+}
+
+/*footer fixes */
+
+#tent {
+  position: absolute;
+  bottom: 15px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
