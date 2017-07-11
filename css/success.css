@@ -16,7 +16,15 @@ p {
   margin-top: 50px;
 }
 
+/*footer fixes */
+
+#tent {
+  position: absolute;
+  bottom: 15px;
+}
+
 footer {
   position: absolute;
   bottom: 0;
+  left: 0;
 }
