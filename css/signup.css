@@ -1,0 +1,78 @@
+
+#signup-container {
+  min-height: 100%;
+  position: relative;
+}
+
+.sunset-image {
+  height: 150px;
+  background-position: center 85%;
+}
+
+h1 {
+  color: white;
+}
+
+#heading {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Form Styling */
+
+form {
+  border: 2px solid black;
+  font-weight: 400;
+  height: 250px;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+legend {
+  font-size: 2em;
+  margin-bottom: 25px;
+  padding-top: 10px;
+  border: 1px dotted red;
+}
+
+label {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 1.5em;
+
+  border: 1px dotted red;
+}
+
+.input {
+  display: inline-block;
+  border: 2px solid grey;
+  background-color: lightgrey;
+  height: 3em;
+  width: 100px;
+}
+
+#lineformat {
+  margin-bottom: 10px;
+}
+
+#submit-button {
+  display: block;
+  border: 3px solid grey;
+  font-size: 1.5em;
+  color: grey;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 15px;
+  border-radius: 3px;
+}
+
+/* Footer Correction */
+
+
