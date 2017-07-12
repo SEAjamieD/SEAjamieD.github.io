@@ -153,12 +153,12 @@ p a:visited {
 
 #getting-there-triangle-top {
   position: absolute;
-  top: 0;
+  top: -1px;
 }
 
 #getting-there-triangle-bottom {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
 }
 
 #table-map-div {
@@ -228,12 +228,12 @@ p a:visited {
 
 #where-to-camp-triangle-top {
   position: absolute;
-  top: 0;
+  top: -1px;
 }
 
 #where-to-camp-triangle-bottom {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
 }
 
 /* Activities Styles */
@@ -250,12 +250,12 @@ p a:visited {
 
 #activities-triangle-top {
   position: absolute;
-  top: 0;
+  top: -1px;
 }
 
 #activities-triangle-bottom {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
 }
 
 .list {
